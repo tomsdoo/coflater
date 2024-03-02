@@ -1,0 +1,34 @@
+{
+  "name": "@tomsd/coflater",
+  "version": "0.1.0",
+  "description": "object converter",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "expors": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./diist/index.cjs",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "tom",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.11.24",
+    "tsup": "8.0.2",
+    "tsx": "4.7.1",
+    "typescript": "5.3.3",
+    "vitest": "1.3.1"
+  }
+}
