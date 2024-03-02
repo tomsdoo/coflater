@@ -1,6 +1,6 @@
 {
   "name": "@tomsd/coflater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It flattens a deep object and restores a flattened object.",
   "type": "module",
   "main": "dist/index.cjs",
