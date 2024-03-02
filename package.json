@@ -1,7 +1,7 @@
 {
   "name": "@tomsd/coflater",
   "version": "1.0.0",
-  "description": "object converter",
+  "description": "It flattens a deep object and restores a flattened object.",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -20,6 +20,10 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomsdoo/coflater.git"
   },
   "keywords": [],
   "author": "tom",
