@@ -1,6 +1,6 @@
 # coflater
 
-It flattens a deep object and restore flattened object.
+It flattens a deep object and restores a flattened object.
 
 [![](https://nodei.co/npm/@tomsd/coflater.svg?mini=true)](https://www.npmjs.com/package/@tomsd/coflater)
 
